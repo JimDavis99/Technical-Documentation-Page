@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <header id="title">CSS Documentation</header>
+      <ul>
+        <li>
+          <a class="nav-link" href=#Introduction>Introduction</a>
+        </li>
+        <li>
+          <a class="nav-link" href=#About_CSS>About CSS</a>
+        </li>
+        <li>
+          <a class="nav-link" href=#Examples>Examples</a>
+        </li>
+        <li>
+          <a class="nav-link" href=#Selectors>Selectors</a>
+        </li>
+        <li>
+          <a class="nav-link" href=#Summary>Summary</a>
+        </li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section id="Introduction" class="main-section">
+        <header id="subheading">
+          Introduction
+        </header>
+        <p>This will walk you through the fundamentals of CSS and how it works. </p>
+      </section>
+      <section id="About_CSS" class="main-section">
+        <header id="subheading">
+          About CSS
+        </header>
+        <p>CSS (Cascading Style Sheets) allows you to create great-looking web pages, but how does it work under the hood? This article explains what CSS is with a simple syntax example and also covers some key terms about the language. </p>
+      </section>
+      <section id="Examples" class="main-section">
+        <header id="subheading">
+          Examples
+        </header>
+        This code changes how a navigation bar is displayed on a web page:
+        <code>
+          nav {
+  text-align: center;
+  margin: 0;
+  background-color: #5d5c7a;
+  width: auto
+}
+        </code>
+        <p>This code changes how list elements are displayed on a web page:  </p>
+        <code>
+          li {
+  display: inline;
+  width: auto
+}
+        </code>
+        <p>This code changes how the code elements used in this examples section are displayed:</p>
+        <code>
+          code {
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 2;
+  background-color: #f7f7f7;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
+        </code>
+        <p>This code changes how links
+          transform when the cursor is hovering on them: </p>
+        <code>
+          a:hover {
+  background-color: #5c687a;
+  color: white
+}
+        </code>
+        <p>This code changes how the entire body element on this webpage is displayed: </p>
+        <code>
+          body {
+  min-width: 290px;
+  color: #4d4e53;
+  background-color: #c3d2e8;
+  font-family: 'Open Sans', Arial, sans-serif;
+  line-height: 1.5;
+  text-align: center
+}
+        </code>
+      </section>
+      <section id="Selectors" class="main-section">
+        <header id="subheading">
+          Selectors
+        </header>
+        <p>CSS selectors are what you use to target and style the HTML elements in a HTML document, they would be targeted in a CSS document as shown in the<a id="selector-link" href="#Examples">Examples</a> section.</p>
+        <p>Selectors can vary in types for example you have simple selectors, which consist of an 
+          <li>id selector (#id-selector)</li> 
+        <li>a class selector(.class-selector)</li>
+        <li>a universal selector(*)</li>
+        <li>a standdard element selector(element)</li>
+        <li>multi-element selector(element, element)</li>
+        </p>
+      </section>
+      <section id="Summary" class="main-section">
+        <header id="subheading">
+          Summary
+        </header>
+        <p>In summary CSS (Cascading Style Sheets) is very good for customizing and designing web documents/pages.</p>
+      </section>
+    </main>
+  </body>
+</html>
